@@ -1,0 +1,43 @@
+# Projeto de Worker Threads em Node.js
+
+Este projeto demonstra o uso de Worker Threads em Node.js para realizar cálculos intensivos de CPU, especificamente o cálculo de números primos até um limite superior definido.
+
+## Descrição
+
+O Node.js é conhecido por seu modelo de execução de thread única, que é excelente para operações I/O-bound, mas pode não ser ideal para tarefas intensivas de CPU. Este projeto ilustra como usar Worker Threads para realizar tarefas computacionalmente intensivas, como calcular números primos, de forma paralela.
+
+## Pré-requisitos
+
+- Node.js (versão 10.5.0 ou superior)
+
+## Instalação
+
+1. Clone o repositório para sua máquina local usando `git clone https://github.com/geraldoaax/worker_threads_prime_numbers`.
+2. Navegue até a pasta do projeto.
+3. Não há dependências externas necessárias para este projeto.
+
+## Uso
+
+Para executar o projeto, siga estas etapas:
+
+1. Abra um terminal na pasta do projeto.
+2. Execute o comando `npm run dev`.
+3. Observe a saída do console, que mostrará informações sobre a execução das Worker Threads, incluindo a contagem de números primos e o tempo de execução.
+
+## Estrutura do Projeto
+
+- `index.js`: O script principal que inicializa as Worker Threads e lida com as respostas.
+
+## Contribuições
+
+Contribuições são sempre bem-vindas. Para contribuir, por favor:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`).
+3. Faça suas alterações e commit (`git commit -am 'Adiciona alguma NovaFeature'`).
+4. Faça push para a branch (`git push origin feature/NovaFeature`).
+5. Crie um novo Pull Request.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
